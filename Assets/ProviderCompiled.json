@@ -1,0 +1,42 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_patientName",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_recordHash",
+          "type": "string"
+        }
+      ],
+      "name": "storeRecord",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getAllRecords",
+      "outputs": [
+        {
+          "internalType": "string[]",
+          "name": "",
+          "type": "string[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610421806100206000396000f3fe...",
+  "contractName": "Provider",
+  "networks": {
+    "1337": {
+      "address": "0x4b20993Bc481177ec7E8f571ceCaE8A9e22C02db"
+    }
+  }
+}
