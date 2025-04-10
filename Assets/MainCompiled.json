@@ -1,0 +1,37 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getPatientReport",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_reportHash",
+          "type": "string"
+        }
+      ],
+      "name": "setPatientReport",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b50610142806100206000396000f3fe...",
+  "contractName": "Main",
+  "networks": {
+    "1337": {
+      "address": "0x8AbF28dFfDd50449Dc308305F3B24b9F129fdbb0"
+    }
+  }
+}
